@@ -24,7 +24,7 @@ void CGameScene::render()
     glClear(GL_COLOR_BUFFER_BIT);
     _level->render();
     _pacman->render();
-    //_inky->render();
+    _inky->render();
     _blinky->render();
     glfwSwapBuffers(_window);
 }
@@ -44,7 +44,7 @@ void CGameScene::update()
     checkOutOfScreen(_pacman);
     
     _blinky->moveTo(_pacman->getCenterPosition());
-    /*if (!isCollisionWithWall(_inky)) {
+    if (!isCollisionWithWall(_inky)) {
         _inky->move();
     } else {
         _inky->changeNewDirection();
