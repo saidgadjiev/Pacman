@@ -53,8 +53,8 @@ void CGameScene::update()
     if (_level->isCrossRoad(_inky)) {
         _inky->changeNewDirection();
     }
-    checkOutOfScreen(_inky);*/
-    //collisionPacmanWithGhost();
+    checkOutOfScreen(_inky);
+    collisionDetectionPacmanWithGhost();
     
 }
 
@@ -116,7 +116,7 @@ void CGameScene::initInky()
     _inky->create("Ghost.png");
     _inky->setVelocity(2.0f);
     _inky->setDirection(RIGHT);
-    _inky->setCenterPosition(48, 48);
+    _inky->setCenterPosition(976, 48);
     
 }
 
@@ -230,9 +230,23 @@ void CGameScene::collisionDetectionWithFood()
 void CGameScene::collisionDetectionPacmanWithGhost()
 {
     CVector2 positionPacman = _pacman->getCenterPosition();
-    CVector2 positionInky = _inky->getCenterPosition();
+    CVector2 positionGhost = _inky->getCenterPosition();
     
-    if (positionInky.x == positionPacman.x && positionInky.y == positionPacman.y) {
+    int x = positionPacman.x / SQUARE_SIZE;
+    int y = positionPacman.y / SQUARE_SIZE;
+    int x1 = positionGhost.x / SQUARE_SIZE;
+    int y1 = positionGhost.y / SQUARE_SIZE;
+    
+    if (x == x1 && y == y1) {
+        exit(EXIT_FAILURE);
+    }
+    
+    positionGhost = _blinky->getCenterPosition();
+
+    x1 = positionGhost.x / SQUARE_SIZE;
+    y1 = positionGhost.y / SQUARE_SIZE;
+    
+    if (x == x1 && y == y1) {
         exit(EXIT_FAILURE);
     }
 }

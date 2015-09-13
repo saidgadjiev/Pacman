@@ -72,11 +72,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PacmanClone/CBlinkyGhost.cpp"
-            timestampString = "463523090.165083"
+            timestampString = "463817901.266536"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "157"
-            endingLineNumber = "157"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
             landmarkName = "CBlinkyGhost::findWay(int i1, int j1, int i2, int j2)"
             landmarkType = "5">
          </BreakpointContent>

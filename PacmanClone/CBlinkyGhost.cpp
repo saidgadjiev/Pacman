@@ -119,7 +119,6 @@ void CBlinkyGhost::moveTo(CVector2 targetPosition)
     findWay(i1, j1, i2, j2);
     changeDirection(_wayY[1], _wayX[1]);
     move();
-    printWay();
 }
 
 void CBlinkyGhost::newWayXY()

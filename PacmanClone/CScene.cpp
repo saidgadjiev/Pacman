@@ -81,6 +81,8 @@ void CScene::initGL()
 {
     glViewport(0.f, 0.f, _width, _height);
     glEnable(GL_TEXTURE_2D);
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
     glMatrixMode(GL_PROJECTION);
     glOrtho(0.f, _width, _height, 0.f, 1.f, -1.f);
     glMatrixMode(GL_MODELVIEW);
