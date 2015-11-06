@@ -40,11 +40,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PacmanClone/CLevel.cpp"
-            timestampString = "463172638.064151"
+            timestampString = "468526423.083339"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "145"
-            endingLineNumber = "145"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
             landmarkName = "CLevel::setVBOWall(int deltaVertWall, int x, int y)"
             landmarkType = "5">
          </BreakpointContent>
@@ -56,11 +56,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PacmanClone/CGameScene.h"
-            timestampString = "463403601.575525"
+            timestampString = "468524575.807889"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "class CGameScene"
             landmarkType = "3">
          </BreakpointContent>
@@ -71,14 +71,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PacmanClone/CBlinkyGhost.cpp"
-            timestampString = "463817901.266536"
+            filePath = "PacmanClone/CSingleton.h"
+            timestampString = "468528254.263739"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
-            landmarkName = "CBlinkyGhost::findWay(int i1, int j1, int i2, int j2)"
-            landmarkType = "5">
+            startingLineNumber = "9"
+            endingLineNumber = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

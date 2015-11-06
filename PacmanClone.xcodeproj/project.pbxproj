@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B339540A1B985F89009375E6 /* CAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B33954081B985F89009375E6 /* CAnimation.cpp */; };
+		B31106911BED166400248674 /* CFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B311068F1BED166400248674 /* CFactory.cpp */; };
 		B33C339D1B91A70100FB798C /* CVBOData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B33C339B1B91A70100FB798C /* CVBOData.cpp */; };
 		B343F0EA1BECF06600A36CCA /* libglfw.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B343F0E91BECF06600A36CCA /* libglfw.3.1.dylib */; };
 		B343F0EC1BECF08A00A36CCA /* libtinyxml2.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B343F0EB1BECF08A00A36CCA /* libtinyxml2.3.0.0.dylib */; };
 		B343F0EE1BECF09000A36CCA /* libtmxparser.2.0.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B343F0ED1BECF09000A36CCA /* libtmxparser.2.0.1.dylib */; };
 		B343F0F01BECF0A800A36CCA /* libIL.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B343F0EF1BECF0A800A36CCA /* libIL.1.dylib */; };
+		B3450AB11BED33EF00F37E00 /* CStrategyFindWay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3450AAF1BED33EF00F37E00 /* CStrategyFindWay.cpp */; };
+		B3450AB41BED42D000F37E00 /* CWaveAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3450AB21BED42D000F37E00 /* CWaveAlgorithm.cpp */; };
+		B3450AB71BED471100F37E00 /* CFindWay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3450AB51BED471100F37E00 /* CFindWay.cpp */; };
 		B37097551B9B6BE400FA781F /* CBlinkyGhost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37097531B9B6BE400FA781F /* CBlinkyGhost.cpp */; };
 		B37201BE1B9101B5007A313D /* CLevel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37201BC1B9101B5007A313D /* CLevel.cpp */; };
 		B37201D71B910A2C007A313D /* Level1.tmx in CopyFiles */ = {isa = PBXBuildFile; fileRef = B37201D61B910A23007A313D /* Level1.tmx */; };
@@ -24,9 +27,7 @@
 		B389FD621B8F0CA8008FD16E /* CSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B389FD601B8F0CA8008FD16E /* CSprite.cpp */; };
 		B389FD651B8F0CBD008FD16E /* CTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B389FD631B8F0CBD008FD16E /* CTexture.cpp */; };
 		B389FD681B8F0CCE008FD16E /* CVector2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B389FD661B8F0CCE008FD16E /* CVector2.cpp */; };
-		B389FD6B1B8F0CDD008FD16E /* CBoundingBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B389FD691B8F0CDD008FD16E /* CBoundingBox.cpp */; };
 		B389FD711B8F67A6008FD16E /* Pacman.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = B389FD701B8F679F008FD16E /* Pacman.png */; };
-		B393B7031BA0C2D000F82E2A /* CPinkyGhost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B393B7011BA0C2D000F82E2A /* CPinkyGhost.cpp */; };
 		B3F16B291B9ABB9200CB0A36 /* CInkyGhost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3F16B271B9ABB9200CB0A36 /* CInkyGhost.cpp */; };
 /* End PBXBuildFile section */
 
@@ -45,14 +46,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B33954081B985F89009375E6 /* CAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAnimation.cpp; sourceTree = "<group>"; };
-		B33954091B985F89009375E6 /* CAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAnimation.h; sourceTree = "<group>"; };
+		B311068F1BED166400248674 /* CFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CFactory.cpp; sourceTree = "<group>"; };
+		B31106901BED166400248674 /* CFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFactory.h; sourceTree = "<group>"; };
 		B33C339B1B91A70100FB798C /* CVBOData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CVBOData.cpp; sourceTree = "<group>"; };
 		B33C339C1B91A70100FB798C /* CVBOData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVBOData.h; sourceTree = "<group>"; };
 		B343F0E91BECF06600A36CCA /* libglfw.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.1.dylib; path = ../../../../../opt/local/lib/libglfw.3.1.dylib; sourceTree = "<group>"; };
 		B343F0EB1BECF08A00A36CCA /* libtinyxml2.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtinyxml2.3.0.0.dylib; path = ../../../../../opt/local/lib/libtinyxml2.3.0.0.dylib; sourceTree = "<group>"; };
 		B343F0ED1BECF09000A36CCA /* libtmxparser.2.0.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtmxparser.2.0.1.dylib; path = ../../../../../opt/local/lib/libtmxparser.2.0.1.dylib; sourceTree = "<group>"; };
 		B343F0EF1BECF0A800A36CCA /* libIL.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libIL.1.dylib; path = ../../../../../opt/local/lib/libIL.1.dylib; sourceTree = "<group>"; };
+		B3450AAF1BED33EF00F37E00 /* CStrategyFindWay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CStrategyFindWay.cpp; sourceTree = "<group>"; };
+		B3450AB01BED33EF00F37E00 /* CStrategyFindWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CStrategyFindWay.h; sourceTree = "<group>"; };
+		B3450AB21BED42D000F37E00 /* CWaveAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CWaveAlgorithm.cpp; sourceTree = "<group>"; };
+		B3450AB31BED42D000F37E00 /* CWaveAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWaveAlgorithm.h; sourceTree = "<group>"; };
+		B3450AB51BED471100F37E00 /* CFindWay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CFindWay.cpp; sourceTree = "<group>"; };
+		B3450AB61BED471100F37E00 /* CFindWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFindWay.h; sourceTree = "<group>"; };
 		B37097531B9B6BE400FA781F /* CBlinkyGhost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CBlinkyGhost.cpp; sourceTree = "<group>"; };
 		B37097541B9B6BE400FA781F /* CBlinkyGhost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBlinkyGhost.h; sourceTree = "<group>"; };
 		B37201BC1B9101B5007A313D /* CLevel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CLevel.cpp; sourceTree = "<group>"; };
@@ -73,11 +80,7 @@
 		B389FD641B8F0CBD008FD16E /* CTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTexture.h; sourceTree = "<group>"; };
 		B389FD661B8F0CCE008FD16E /* CVector2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CVector2.cpp; sourceTree = "<group>"; };
 		B389FD671B8F0CCE008FD16E /* CVector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVector2.h; sourceTree = "<group>"; };
-		B389FD691B8F0CDD008FD16E /* CBoundingBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CBoundingBox.cpp; sourceTree = "<group>"; };
-		B389FD6A1B8F0CDD008FD16E /* CBoundingBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBoundingBox.h; sourceTree = "<group>"; };
 		B389FD701B8F679F008FD16E /* Pacman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pacman.png; sourceTree = "<group>"; };
-		B393B7011BA0C2D000F82E2A /* CPinkyGhost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPinkyGhost.cpp; sourceTree = "<group>"; };
-		B393B7021BA0C2D000F82E2A /* CPinkyGhost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPinkyGhost.h; sourceTree = "<group>"; };
 		B3F1192A1B90E9BB001CBCF5 /* CScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CScene.h; sourceTree = "<group>"; };
 		B3F16B271B9ABB9200CB0A36 /* CInkyGhost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CInkyGhost.cpp; sourceTree = "<group>"; };
 		B3F16B281B9ABB9200CB0A36 /* CInkyGhost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CInkyGhost.h; sourceTree = "<group>"; };
@@ -134,7 +137,6 @@
 		B389FD461B8F0BA6008FD16E /* PacmanClone */ = {
 			isa = PBXGroup;
 			children = (
-				B389FD6D1B8F0D06008FD16E /* CBoundingBox */,
 				B389FD6C1B8F0CE7008FD16E /* CVector2 */,
 				B33C339E1B91A82600FB798C /* CVBOData */,
 				B389FD561B8F0C2E008FD16E /* Prefix.h */,
@@ -142,6 +144,14 @@
 				B389FD571B8F0C6E008FD16E /* CScene.cpp */,
 				B3F1192A1B90E9BB001CBCF5 /* CScene.h */,
 				B389FD5A1B8F0C8A008FD16E /* CGameScene.cpp */,
+				B3450AAF1BED33EF00F37E00 /* CStrategyFindWay.cpp */,
+				B3450AB01BED33EF00F37E00 /* CStrategyFindWay.h */,
+				B3450AB21BED42D000F37E00 /* CWaveAlgorithm.cpp */,
+				B3450AB51BED471100F37E00 /* CFindWay.cpp */,
+				B3450AB61BED471100F37E00 /* CFindWay.h */,
+				B3450AB31BED42D000F37E00 /* CWaveAlgorithm.h */,
+				B311068F1BED166400248674 /* CFactory.cpp */,
+				B31106901BED166400248674 /* CFactory.h */,
 				B37201BC1B9101B5007A313D /* CLevel.cpp */,
 				B37201BD1B9101B5007A313D /* CLevel.h */,
 				B3F16B271B9ABB9200CB0A36 /* CInkyGhost.cpp */,
@@ -155,10 +165,6 @@
 				B389FD641B8F0CBD008FD16E /* CTexture.h */,
 				B389FD601B8F0CA8008FD16E /* CSprite.cpp */,
 				B389FD611B8F0CA8008FD16E /* CSprite.h */,
-				B393B7011BA0C2D000F82E2A /* CPinkyGhost.cpp */,
-				B393B7021BA0C2D000F82E2A /* CPinkyGhost.h */,
-				B33954081B985F89009375E6 /* CAnimation.cpp */,
-				B33954091B985F89009375E6 /* CAnimation.h */,
 			);
 			path = PacmanClone;
 			sourceTree = "<group>";
@@ -170,15 +176,6 @@
 				B389FD671B8F0CCE008FD16E /* CVector2.h */,
 			);
 			name = CVector2;
-			sourceTree = "<group>";
-		};
-		B389FD6D1B8F0D06008FD16E /* CBoundingBox */ = {
-			isa = PBXGroup;
-			children = (
-				B389FD691B8F0CDD008FD16E /* CBoundingBox.cpp */,
-				B389FD6A1B8F0CDD008FD16E /* CBoundingBox.h */,
-			);
-			name = CBoundingBox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +204,7 @@
 		B389FD3C1B8F0BA6008FD16E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Саид";
 				TargetAttributes = {
 					B389FD431B8F0BA6008FD16E = {
@@ -238,19 +235,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				B37201BE1B9101B5007A313D /* CLevel.cpp in Sources */,
-				B339540A1B985F89009375E6 /* CAnimation.cpp in Sources */,
+				B3450AB41BED42D000F37E00 /* CWaveAlgorithm.cpp in Sources */,
 				B3F16B291B9ABB9200CB0A36 /* CInkyGhost.cpp in Sources */,
 				B37097551B9B6BE400FA781F /* CBlinkyGhost.cpp in Sources */,
 				B389FD621B8F0CA8008FD16E /* CSprite.cpp in Sources */,
+				B31106911BED166400248674 /* CFactory.cpp in Sources */,
 				B389FD5C1B8F0C8A008FD16E /* CGameScene.cpp in Sources */,
+				B3450AB71BED471100F37E00 /* CFindWay.cpp in Sources */,
 				B389FD591B8F0C6E008FD16E /* CScene.cpp in Sources */,
-				B389FD6B1B8F0CDD008FD16E /* CBoundingBox.cpp in Sources */,
 				B33C339D1B91A70100FB798C /* CVBOData.cpp in Sources */,
 				B389FD681B8F0CCE008FD16E /* CVector2.cpp in Sources */,
 				B389FD481B8F0BA6008FD16E /* main.cpp in Sources */,
-				B393B7031BA0C2D000F82E2A /* CPinkyGhost.cpp in Sources */,
 				B389FD5F1B8F0C9F008FD16E /* CPacman.cpp in Sources */,
 				B389FD651B8F0CBD008FD16E /* CTexture.cpp in Sources */,
+				B3450AB11BED33EF00F37E00 /* CStrategyFindWay.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +275,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
