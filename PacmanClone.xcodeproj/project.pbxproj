@@ -25,11 +25,6 @@
 		B3450B201BED57CA00F37E00 /* CWaveAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3450B0E1BED57CA00F37E00 /* CWaveAlgorithm.cpp */; };
 		B3450B211BED57CA00F37E00 /* CVector2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3450B101BED57CA00F37E00 /* CVector2.cpp */; };
 		B3450B221BED57CA00F37E00 /* CVBOData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3450B131BED57CA00F37E00 /* CVBOData.cpp */; };
-		B3450B2F1BED5DC800F37E00 /* Food.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3450B2B1BED5DB700F37E00 /* Food.png */; };
-		B3450B301BED5DC800F37E00 /* Ghost.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3450B2C1BED5DB700F37E00 /* Ghost.png */; };
-		B3450B311BED5DC800F37E00 /* Pacman.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3450B2D1BED5DB700F37E00 /* Pacman.png */; };
-		B3450B321BED5DC800F37E00 /* Wall.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3450B2E1BED5DB700F37E00 /* Wall.png */; };
-		B3450B331BED5DC800F37E00 /* Level1.tmx in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3450B2A1BED5DA400F37E00 /* Level1.tmx */; };
 		B389FD481B8F0BA6008FD16E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B389FD471B8F0BA6008FD16E /* main.cpp */; };
 		B389FD551B8F0C14008FD16E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B389FD541B8F0C14008FD16E /* OpenGL.framework */; };
 /* End PBXBuildFile section */
@@ -41,11 +36,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				B3450B2F1BED5DC800F37E00 /* Food.png in CopyFiles */,
-				B3450B301BED5DC800F37E00 /* Ghost.png in CopyFiles */,
-				B3450B311BED5DC800F37E00 /* Pacman.png in CopyFiles */,
-				B3450B321BED5DC800F37E00 /* Wall.png in CopyFiles */,
-				B3450B331BED5DC800F37E00 /* Level1.tmx in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -88,11 +78,6 @@
 		B3450B271BED5A7800F37E00 /* Ghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ghost.png; sourceTree = "<group>"; };
 		B3450B281BED5A7800F37E00 /* Pacman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pacman.png; sourceTree = "<group>"; };
 		B3450B291BED5A7800F37E00 /* Wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wall.png; sourceTree = "<group>"; };
-		B3450B2A1BED5DA400F37E00 /* Level1.tmx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Level1.tmx; path = PacmanClone/Resources/Levels/Level1.tmx; sourceTree = "<group>"; };
-		B3450B2B1BED5DB700F37E00 /* Food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Food.png; path = PacmanClone/Resources/Sprites/Food.png; sourceTree = "<group>"; };
-		B3450B2C1BED5DB700F37E00 /* Ghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ghost.png; path = PacmanClone/Resources/Sprites/Ghost.png; sourceTree = "<group>"; };
-		B3450B2D1BED5DB700F37E00 /* Pacman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pacman.png; path = PacmanClone/Resources/Sprites/Pacman.png; sourceTree = "<group>"; };
-		B3450B2E1BED5DB700F37E00 /* Wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Wall.png; path = PacmanClone/Resources/Sprites/Wall.png; sourceTree = "<group>"; };
 		B389FD441B8F0BA6008FD16E /* PacmanClone */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PacmanClone; sourceTree = BUILT_PRODUCTS_DIR; };
 		B389FD471B8F0BA6008FD16E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B389FD541B8F0C14008FD16E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -206,11 +191,6 @@
 				B343F0ED1BECF09000A36CCA /* libtmxparser.2.0.1.dylib */,
 				B343F0EB1BECF08A00A36CCA /* libtinyxml2.3.0.0.dylib */,
 				B343F0E91BECF06600A36CCA /* libglfw.3.1.dylib */,
-				B3450B2B1BED5DB700F37E00 /* Food.png */,
-				B3450B2C1BED5DB700F37E00 /* Ghost.png */,
-				B3450B2D1BED5DB700F37E00 /* Pacman.png */,
-				B3450B2E1BED5DB700F37E00 /* Wall.png */,
-				B3450B2A1BED5DA400F37E00 /* Level1.tmx */,
 				B389FD541B8F0C14008FD16E /* OpenGL.framework */,
 				B389FD461B8F0BA6008FD16E /* PacmanClone */,
 				B389FD451B8F0BA6008FD16E /* Products */,

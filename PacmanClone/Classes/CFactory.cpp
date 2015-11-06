@@ -22,7 +22,7 @@ CBlinkyGhost *CFactory::createBlinkyGhost(CLevel *level) {
     CBlinkyGhost *blinky = new CBlinkyGhost();
     
     blinky->setTextureCoord(0.f);
-    blinky->create("Ghost.png");
+    blinky->create("../Sprites/Ghost.png");
     blinky->setVelocity(2.0f);
     blinky->setDirection(RIGHT);
     blinky->setCenterPosition(48, 48);
@@ -37,7 +37,7 @@ CInkyGhost *CFactory::createInkyGhost() {
     CInkyGhost *inky = new CInkyGhost();
     
     inky->setTextureCoord(0.5f);
-    inky->create("Ghost.png");
+    inky->create("../Sprites/Ghost.png");
     inky->setVelocity(2.0f);
     inky->setDirection(RIGHT);
     inky->setCenterPosition(976, 48);
@@ -48,7 +48,7 @@ CInkyGhost *CFactory::createInkyGhost() {
 CPacman *CFactory::createPacman() {
     CPacman *pacman = CPacman::getInstance();
     
-    pacman->create("Pacman.png");
+    pacman->create("../Sprites/Pacman.png");
     pacman->setVelocity(2.0f);
     pacman->setDirection(DOWN);
     
