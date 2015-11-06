@@ -13,7 +13,7 @@
 
 class CPacman: public CSprite {
 public:
-    CPacman();
+    static CPacman *getInstance();
     void setNextDirection(EDirection nextDirection);
     EDirection getNextDirection() const;
     void setNextRotation(GLfloat rotation);
@@ -23,6 +23,8 @@ public:
     void setPrevRotation(GLfloat rotation);
     GLfloat getPrevRotation() const;
 private:
+    CPacman();
+    static CPacman *instance;
     EDirection _nextDirection;
     GLfloat _nextRotation;
     EDirection _prevDirection;

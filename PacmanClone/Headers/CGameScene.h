@@ -15,6 +15,7 @@
 #include "CLevel.h"
 #include "CInkyGhost.h"
 #include "CBlinkyGhost.h"
+#include "CFactory.h"
 
 class CGameScene: public CScene {
 public:
@@ -31,10 +32,6 @@ public:
     void collisionDetectionPacmanWithGhost();
 private:
     void keyHundler();
-    void initPacman();
-    void initInky();
-    void initBlinky();
-    void initLevel();
     CPacman *_pacman;
     CInkyGhost *_inky;
     CBlinkyGhost *_blinky;

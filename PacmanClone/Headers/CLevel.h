@@ -25,6 +25,8 @@ public:
     void initMap(int rows, int calls);
     void deleteFood(int y, int x);
     int **getMap() const;
+    int getMapRows() const;
+    int getMapColls() const;
     bool isCrossRoad(CSprite *sprite) const;
 private:
     void setVBOWall(int deltaVertWall, int x, int y);

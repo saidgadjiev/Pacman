@@ -14,8 +14,8 @@ CGameScene::CGameScene() :
 
 CGameScene::~CGameScene()
 {
-    delete _pacman;
     delete _inky;
+    delete  _blinky;
     delete _level;
 }
 
@@ -31,7 +31,6 @@ void CGameScene::render()
 
 void CGameScene::update()
 {
-   
     keyHundler();
     setCorrectDirectionAndRotationForPacman();
     if (!isCollisionWithWall(_pacman)) {
@@ -100,50 +99,14 @@ void CGameScene::checkOutOfScreen(CSprite *sprite)
     sprite->setCenterPosition(correctPos);
 }
 
-void CGameScene::initPacman()
-{
-    _pacman = new CPacman();
-    _pacman->create("Pacman.png");
-    _pacman->setVelocity(2.0f);
-    _pacman->setDirection(DOWN);
-}
-
-void CGameScene::initInky()
-{
-    
-    _inky = new CInkyGhost();
-    _inky->setTextureCoord(0.5f);
-    _inky->create("Ghost.png");
-    _inky->setVelocity(2.0f);
-    _inky->setDirection(RIGHT);
-    _inky->setCenterPosition(976, 48);
-    
-}
-
-void CGameScene::initBlinky()
-{
-    _blinky = new CBlinkyGhost();
-    _blinky->setTextureCoord(0.f);
-    _blinky->create("Ghost.png");
-    _blinky->setVelocity(2.0f);
-    _blinky->setDirection(RIGHT);
-    _blinky->setCenterPosition(48, 48);
-    _blinky->initMap(_level->getMap(), _height / SQUARE_SIZE, _width / SQUARE_SIZE);
-}
-
-void CGameScene::initLevel()
-{
-    _level = new CLevel();
-    _level->initMap(_height / SQUARE_SIZE, _width / SQUARE_SIZE);
-    _level->loadFromFile("testMap.tmx");
-}
-
 void CGameScene::init()
 {
-    initLevel();
-    initPacman();
-    initInky();
-    initBlinky();
+    CFactory *factory = CFactory::getInstance();
+    
+    _level = factory->createLevel("testMap.tmx", _width, _height);
+    _pacman = factory->createPacman();
+    _inky = factory->createInkyGhost();
+    _blinky = factory->createBlinkyGhost(_level);
 }
 
 void CGameScene::setCorrectDirectionAndRotationForPacman()

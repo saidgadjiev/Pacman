@@ -8,6 +8,16 @@
 
 #include "CPacman.h"
 
+CPacman *CPacman::instance = nullptr;
+
+CPacman *CPacman::getInstance() {
+    if (instance == nullptr) {
+        instance = new CPacman();
+    }
+    
+    return instance;
+}
+
 CPacman::CPacman():
     CSprite(),
     _nextDirection(RIGHT)

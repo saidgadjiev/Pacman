@@ -102,6 +102,16 @@ int **CLevel::getMap() const
     return _map;
 }
 
+int CLevel::getMapColls() const
+{
+    return _colls;
+}
+
+int CLevel::getMapRows() const
+{
+    return _rows;
+}
+
 bool CLevel::isCrossRoad(CSprite *sprite) const
 {
     CVector2 position = sprite->getCenterPosition();
