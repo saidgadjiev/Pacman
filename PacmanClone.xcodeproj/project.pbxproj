@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		B339540A1B985F89009375E6 /* CAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B33954081B985F89009375E6 /* CAnimation.cpp */; };
 		B33C339D1B91A70100FB798C /* CVBOData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B33C339B1B91A70100FB798C /* CVBOData.cpp */; };
+		B343F0EA1BECF06600A36CCA /* libglfw.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B343F0E91BECF06600A36CCA /* libglfw.3.1.dylib */; };
+		B343F0EC1BECF08A00A36CCA /* libtinyxml2.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B343F0EB1BECF08A00A36CCA /* libtinyxml2.3.0.0.dylib */; };
+		B343F0EE1BECF09000A36CCA /* libtmxparser.2.0.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B343F0ED1BECF09000A36CCA /* libtmxparser.2.0.1.dylib */; };
+		B343F0F01BECF0A800A36CCA /* libIL.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B343F0EF1BECF0A800A36CCA /* libIL.1.dylib */; };
 		B37097551B9B6BE400FA781F /* CBlinkyGhost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37097531B9B6BE400FA781F /* CBlinkyGhost.cpp */; };
 		B37201BE1B9101B5007A313D /* CLevel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37201BC1B9101B5007A313D /* CLevel.cpp */; };
-		B37201D51B91096D007A313D /* libtmxparser.2.0.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B37201D41B91096D007A313D /* libtmxparser.2.0.1.dylib */; };
 		B37201D71B910A2C007A313D /* Level1.tmx in CopyFiles */ = {isa = PBXBuildFile; fileRef = B37201D61B910A23007A313D /* Level1.tmx */; };
 		B389FD481B8F0BA6008FD16E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B389FD471B8F0BA6008FD16E /* main.cpp */; };
-		B389FD511B8F0C05008FD16E /* libglfw.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B389FD4E1B8F0C05008FD16E /* libglfw.3.1.dylib */; };
-		B389FD521B8F0C05008FD16E /* libIL.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B389FD4F1B8F0C05008FD16E /* libIL.1.dylib */; };
-		B389FD531B8F0C05008FD16E /* libILU.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B389FD501B8F0C05008FD16E /* libILU.1.dylib */; };
 		B389FD551B8F0C14008FD16E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B389FD541B8F0C14008FD16E /* OpenGL.framework */; };
 		B389FD591B8F0C6E008FD16E /* CScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B389FD571B8F0C6E008FD16E /* CScene.cpp */; };
 		B389FD5C1B8F0C8A008FD16E /* CGameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B389FD5A1B8F0C8A008FD16E /* CGameScene.cpp */; };
@@ -49,17 +49,17 @@
 		B33954091B985F89009375E6 /* CAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAnimation.h; sourceTree = "<group>"; };
 		B33C339B1B91A70100FB798C /* CVBOData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CVBOData.cpp; sourceTree = "<group>"; };
 		B33C339C1B91A70100FB798C /* CVBOData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVBOData.h; sourceTree = "<group>"; };
+		B343F0E91BECF06600A36CCA /* libglfw.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.1.dylib; path = ../../../../../opt/local/lib/libglfw.3.1.dylib; sourceTree = "<group>"; };
+		B343F0EB1BECF08A00A36CCA /* libtinyxml2.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtinyxml2.3.0.0.dylib; path = ../../../../../opt/local/lib/libtinyxml2.3.0.0.dylib; sourceTree = "<group>"; };
+		B343F0ED1BECF09000A36CCA /* libtmxparser.2.0.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtmxparser.2.0.1.dylib; path = ../../../../../opt/local/lib/libtmxparser.2.0.1.dylib; sourceTree = "<group>"; };
+		B343F0EF1BECF0A800A36CCA /* libIL.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libIL.1.dylib; path = ../../../../../opt/local/lib/libIL.1.dylib; sourceTree = "<group>"; };
 		B37097531B9B6BE400FA781F /* CBlinkyGhost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CBlinkyGhost.cpp; sourceTree = "<group>"; };
 		B37097541B9B6BE400FA781F /* CBlinkyGhost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBlinkyGhost.h; sourceTree = "<group>"; };
 		B37201BC1B9101B5007A313D /* CLevel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CLevel.cpp; sourceTree = "<group>"; };
 		B37201BD1B9101B5007A313D /* CLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLevel.h; sourceTree = "<group>"; };
-		B37201D41B91096D007A313D /* libtmxparser.2.0.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtmxparser.2.0.1.dylib; path = ../../../../opt/local/lib/libtmxparser.2.0.1.dylib; sourceTree = "<group>"; };
 		B37201D61B910A23007A313D /* Level1.tmx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Level1.tmx; sourceTree = "<group>"; };
 		B389FD441B8F0BA6008FD16E /* PacmanClone */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PacmanClone; sourceTree = BUILT_PRODUCTS_DIR; };
 		B389FD471B8F0BA6008FD16E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		B389FD4E1B8F0C05008FD16E /* libglfw.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.1.dylib; path = ../../../../opt/local/lib/libglfw.3.1.dylib; sourceTree = "<group>"; };
-		B389FD4F1B8F0C05008FD16E /* libIL.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libIL.1.dylib; path = ../../../../opt/local/lib/libIL.1.dylib; sourceTree = "<group>"; };
-		B389FD501B8F0C05008FD16E /* libILU.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libILU.1.dylib; path = ../../../../opt/local/lib/libILU.1.dylib; sourceTree = "<group>"; };
 		B389FD541B8F0C14008FD16E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		B389FD561B8F0C2E008FD16E /* Prefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.h; sourceTree = "<group>"; };
 		B389FD571B8F0C6E008FD16E /* CScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CScene.cpp; sourceTree = "<group>"; };
@@ -88,11 +88,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B37201D51B91096D007A313D /* libtmxparser.2.0.1.dylib in Frameworks */,
+				B343F0F01BECF0A800A36CCA /* libIL.1.dylib in Frameworks */,
+				B343F0EE1BECF09000A36CCA /* libtmxparser.2.0.1.dylib in Frameworks */,
+				B343F0EC1BECF08A00A36CCA /* libtinyxml2.3.0.0.dylib in Frameworks */,
+				B343F0EA1BECF06600A36CCA /* libglfw.3.1.dylib in Frameworks */,
 				B389FD551B8F0C14008FD16E /* OpenGL.framework in Frameworks */,
-				B389FD511B8F0C05008FD16E /* libglfw.3.1.dylib in Frameworks */,
-				B389FD521B8F0C05008FD16E /* libIL.1.dylib in Frameworks */,
-				B389FD531B8F0C05008FD16E /* libILU.1.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,11 +111,11 @@
 		B389FD3B1B8F0BA6008FD16E = {
 			isa = PBXGroup;
 			children = (
-				B37201D41B91096D007A313D /* libtmxparser.2.0.1.dylib */,
+				B343F0EF1BECF0A800A36CCA /* libIL.1.dylib */,
+				B343F0ED1BECF09000A36CCA /* libtmxparser.2.0.1.dylib */,
+				B343F0EB1BECF08A00A36CCA /* libtinyxml2.3.0.0.dylib */,
+				B343F0E91BECF06600A36CCA /* libglfw.3.1.dylib */,
 				B389FD541B8F0C14008FD16E /* OpenGL.framework */,
-				B389FD4E1B8F0C05008FD16E /* libglfw.3.1.dylib */,
-				B389FD4F1B8F0C05008FD16E /* libIL.1.dylib */,
-				B389FD501B8F0C05008FD16E /* libILU.1.dylib */,
 				B389FD701B8F679F008FD16E /* Pacman.png */,
 				B37201D61B910A23007A313D /* Level1.tmx */,
 				B389FD461B8F0BA6008FD16E /* PacmanClone */,
