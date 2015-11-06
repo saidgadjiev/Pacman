@@ -8,6 +8,7 @@
 
 #ifndef __PacmanClone__CInkyGhost__
 #define __PacmanClone__CInkyGhost__
+
 #include "CSprite.h"
 
 class CInkyGhost: public CSprite {

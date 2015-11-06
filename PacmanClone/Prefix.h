@@ -15,7 +15,6 @@
 #include <OpenGL/gl.h>
 #include <OpenGL/glu.h>
 #include "CVector2.h"
-#include "CBoundingBox.h"
 #include "CVBOData.h"
 
 enum EDirection {LEFT, RIGHT, UP, DOWN, STOP};

@@ -103,7 +103,7 @@ void CGameScene::init()
 {
     CFactory *factory = CFactory::getInstance();
     
-    _level = factory->createLevel("testMap.tmx", _width, _height);
+    _level = factory->createLevel("Levels/TestMao.tmx", _width, _height);
     _pacman = factory->createPacman();
     _inky = factory->createInkyGhost();
     _blinky = factory->createBlinkyGhost(_level);
