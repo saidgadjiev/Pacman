@@ -11,22 +11,22 @@
 		B343F0EC1BECF08A00A36CCA /* libtinyxml2.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B343F0EB1BECF08A00A36CCA /* libtinyxml2.3.0.0.dylib */; };
 		B343F0EE1BECF09000A36CCA /* libtmxparser.2.0.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B343F0ED1BECF09000A36CCA /* libtmxparser.2.0.1.dylib */; };
 		B343F0F01BECF0A800A36CCA /* libIL.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B343F0EF1BECF0A800A36CCA /* libIL.1.dylib */; };
-		B3450B151BED57CA00F37E00 /* CBlinkyGhost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3450B031BED57CA00F37E00 /* CBlinkyGhost.cpp */; };
-		B3450B161BED57CA00F37E00 /* CFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3450B041BED57CA00F37E00 /* CFactory.cpp */; };
-		B3450B171BED57CA00F37E00 /* CFindWay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3450B051BED57CA00F37E00 /* CFindWay.cpp */; };
-		B3450B181BED57CA00F37E00 /* CGameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3450B061BED57CA00F37E00 /* CGameScene.cpp */; };
-		B3450B191BED57CA00F37E00 /* CInkyGhost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3450B071BED57CA00F37E00 /* CInkyGhost.cpp */; };
-		B3450B1A1BED57CA00F37E00 /* CLevel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3450B081BED57CA00F37E00 /* CLevel.cpp */; };
-		B3450B1B1BED57CA00F37E00 /* CPacman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3450B091BED57CA00F37E00 /* CPacman.cpp */; };
-		B3450B1C1BED57CA00F37E00 /* CScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3450B0A1BED57CA00F37E00 /* CScene.cpp */; };
-		B3450B1D1BED57CA00F37E00 /* CSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3450B0B1BED57CA00F37E00 /* CSprite.cpp */; };
-		B3450B1E1BED57CA00F37E00 /* CStrategyFindWay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3450B0C1BED57CA00F37E00 /* CStrategyFindWay.cpp */; };
-		B3450B1F1BED57CA00F37E00 /* CTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3450B0D1BED57CA00F37E00 /* CTexture.cpp */; };
-		B3450B201BED57CA00F37E00 /* CWaveAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3450B0E1BED57CA00F37E00 /* CWaveAlgorithm.cpp */; };
-		B3450B211BED57CA00F37E00 /* CVector2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3450B101BED57CA00F37E00 /* CVector2.cpp */; };
-		B3450B221BED57CA00F37E00 /* CVBOData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3450B131BED57CA00F37E00 /* CVBOData.cpp */; };
 		B389FD481B8F0BA6008FD16E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B389FD471B8F0BA6008FD16E /* main.cpp */; };
 		B389FD551B8F0C14008FD16E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B389FD541B8F0C14008FD16E /* OpenGL.framework */; };
+		B3C38C491BED64AD001CC47E /* CBlinkyGhost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3C38C371BED64AD001CC47E /* CBlinkyGhost.cpp */; };
+		B3C38C4A1BED64AD001CC47E /* CFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3C38C381BED64AD001CC47E /* CFactory.cpp */; };
+		B3C38C4B1BED64AD001CC47E /* CFindWay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3C38C391BED64AD001CC47E /* CFindWay.cpp */; };
+		B3C38C4C1BED64AD001CC47E /* CGameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3C38C3A1BED64AD001CC47E /* CGameScene.cpp */; };
+		B3C38C4D1BED64AD001CC47E /* CInkyGhost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3C38C3B1BED64AD001CC47E /* CInkyGhost.cpp */; };
+		B3C38C4E1BED64AD001CC47E /* CLevel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3C38C3C1BED64AD001CC47E /* CLevel.cpp */; };
+		B3C38C4F1BED64AD001CC47E /* CPacman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3C38C3D1BED64AD001CC47E /* CPacman.cpp */; };
+		B3C38C501BED64AD001CC47E /* CScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3C38C3E1BED64AD001CC47E /* CScene.cpp */; };
+		B3C38C511BED64AD001CC47E /* CSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3C38C3F1BED64AD001CC47E /* CSprite.cpp */; };
+		B3C38C521BED64AD001CC47E /* CStrategyFindWay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3C38C401BED64AD001CC47E /* CStrategyFindWay.cpp */; };
+		B3C38C531BED64AE001CC47E /* CTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3C38C411BED64AD001CC47E /* CTexture.cpp */; };
+		B3C38C541BED64AE001CC47E /* CVBOData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3C38C431BED64AD001CC47E /* CVBOData.cpp */; };
+		B3C38C551BED64AE001CC47E /* CVector2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3C38C461BED64AD001CC47E /* CVector2.cpp */; };
+		B3C38C561BED64AE001CC47E /* CWaveAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3C38C481BED64AD001CC47E /* CWaveAlgorithm.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,22 +58,6 @@
 		B3450AFF1BED57CA00F37E00 /* CStrategyFindWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CStrategyFindWay.h; sourceTree = "<group>"; };
 		B3450B001BED57CA00F37E00 /* CTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTexture.h; sourceTree = "<group>"; };
 		B3450B011BED57CA00F37E00 /* CWaveAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWaveAlgorithm.h; sourceTree = "<group>"; };
-		B3450B031BED57CA00F37E00 /* CBlinkyGhost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CBlinkyGhost.cpp; sourceTree = "<group>"; };
-		B3450B041BED57CA00F37E00 /* CFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CFactory.cpp; sourceTree = "<group>"; };
-		B3450B051BED57CA00F37E00 /* CFindWay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CFindWay.cpp; sourceTree = "<group>"; };
-		B3450B061BED57CA00F37E00 /* CGameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CGameScene.cpp; sourceTree = "<group>"; };
-		B3450B071BED57CA00F37E00 /* CInkyGhost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CInkyGhost.cpp; sourceTree = "<group>"; };
-		B3450B081BED57CA00F37E00 /* CLevel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CLevel.cpp; sourceTree = "<group>"; };
-		B3450B091BED57CA00F37E00 /* CPacman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPacman.cpp; sourceTree = "<group>"; };
-		B3450B0A1BED57CA00F37E00 /* CScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CScene.cpp; sourceTree = "<group>"; };
-		B3450B0B1BED57CA00F37E00 /* CSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CSprite.cpp; sourceTree = "<group>"; };
-		B3450B0C1BED57CA00F37E00 /* CStrategyFindWay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CStrategyFindWay.cpp; sourceTree = "<group>"; };
-		B3450B0D1BED57CA00F37E00 /* CTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CTexture.cpp; sourceTree = "<group>"; };
-		B3450B0E1BED57CA00F37E00 /* CWaveAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CWaveAlgorithm.cpp; sourceTree = "<group>"; };
-		B3450B101BED57CA00F37E00 /* CVector2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CVector2.cpp; sourceTree = "<group>"; };
-		B3450B111BED57CA00F37E00 /* CVector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVector2.h; sourceTree = "<group>"; };
-		B3450B131BED57CA00F37E00 /* CVBOData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CVBOData.cpp; sourceTree = "<group>"; };
-		B3450B141BED57CA00F37E00 /* CVBOData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVBOData.h; sourceTree = "<group>"; };
 		B3450B261BED5A7800F37E00 /* Food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Food.png; sourceTree = "<group>"; };
 		B3450B271BED5A7800F37E00 /* Ghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ghost.png; sourceTree = "<group>"; };
 		B3450B281BED5A7800F37E00 /* Pacman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pacman.png; sourceTree = "<group>"; };
@@ -82,6 +66,22 @@
 		B389FD471B8F0BA6008FD16E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B389FD541B8F0C14008FD16E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		B389FD561B8F0C2E008FD16E /* Prefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.h; sourceTree = "<group>"; };
+		B3C38C371BED64AD001CC47E /* CBlinkyGhost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CBlinkyGhost.cpp; sourceTree = "<group>"; };
+		B3C38C381BED64AD001CC47E /* CFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CFactory.cpp; sourceTree = "<group>"; };
+		B3C38C391BED64AD001CC47E /* CFindWay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CFindWay.cpp; sourceTree = "<group>"; };
+		B3C38C3A1BED64AD001CC47E /* CGameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CGameScene.cpp; sourceTree = "<group>"; };
+		B3C38C3B1BED64AD001CC47E /* CInkyGhost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CInkyGhost.cpp; sourceTree = "<group>"; };
+		B3C38C3C1BED64AD001CC47E /* CLevel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CLevel.cpp; sourceTree = "<group>"; };
+		B3C38C3D1BED64AD001CC47E /* CPacman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPacman.cpp; sourceTree = "<group>"; };
+		B3C38C3E1BED64AD001CC47E /* CScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CScene.cpp; sourceTree = "<group>"; };
+		B3C38C3F1BED64AD001CC47E /* CSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CSprite.cpp; sourceTree = "<group>"; };
+		B3C38C401BED64AD001CC47E /* CStrategyFindWay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CStrategyFindWay.cpp; sourceTree = "<group>"; };
+		B3C38C411BED64AD001CC47E /* CTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CTexture.cpp; sourceTree = "<group>"; };
+		B3C38C431BED64AD001CC47E /* CVBOData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CVBOData.cpp; sourceTree = "<group>"; };
+		B3C38C441BED64AD001CC47E /* CVBOData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVBOData.h; sourceTree = "<group>"; };
+		B3C38C461BED64AD001CC47E /* CVector2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CVector2.cpp; sourceTree = "<group>"; };
+		B3C38C471BED64AD001CC47E /* CVector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVector2.h; sourceTree = "<group>"; };
+		B3C38C481BED64AD001CC47E /* CWaveAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CWaveAlgorithm.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,43 +117,6 @@
 				B3450B011BED57CA00F37E00 /* CWaveAlgorithm.h */,
 			);
 			path = Headers;
-			sourceTree = "<group>";
-		};
-		B3450B021BED57CA00F37E00 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B3450B031BED57CA00F37E00 /* CBlinkyGhost.cpp */,
-				B3450B041BED57CA00F37E00 /* CFactory.cpp */,
-				B3450B051BED57CA00F37E00 /* CFindWay.cpp */,
-				B3450B061BED57CA00F37E00 /* CGameScene.cpp */,
-				B3450B071BED57CA00F37E00 /* CInkyGhost.cpp */,
-				B3450B081BED57CA00F37E00 /* CLevel.cpp */,
-				B3450B091BED57CA00F37E00 /* CPacman.cpp */,
-				B3450B0A1BED57CA00F37E00 /* CScene.cpp */,
-				B3450B0B1BED57CA00F37E00 /* CSprite.cpp */,
-				B3450B0C1BED57CA00F37E00 /* CStrategyFindWay.cpp */,
-				B3450B0D1BED57CA00F37E00 /* CTexture.cpp */,
-				B3450B0E1BED57CA00F37E00 /* CWaveAlgorithm.cpp */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		B3450B0F1BED57CA00F37E00 /* CVector2 */ = {
-			isa = PBXGroup;
-			children = (
-				B3450B101BED57CA00F37E00 /* CVector2.cpp */,
-				B3450B111BED57CA00F37E00 /* CVector2.h */,
-			);
-			path = CVector2;
-			sourceTree = "<group>";
-		};
-		B3450B121BED57CA00F37E00 /* CVBOData */ = {
-			isa = PBXGroup;
-			children = (
-				B3450B131BED57CA00F37E00 /* CVBOData.cpp */,
-				B3450B141BED57CA00F37E00 /* CVBOData.h */,
-			);
-			path = CVBOData;
 			sourceTree = "<group>";
 		};
 		B3450B231BED5A7800F37E00 /* Resources */ = {
@@ -208,15 +171,52 @@
 		B389FD461B8F0BA6008FD16E /* PacmanClone */ = {
 			isa = PBXGroup;
 			children = (
+				B3C38C361BED64AD001CC47E /* Classes */,
 				B3450B231BED5A7800F37E00 /* Resources */,
 				B3450AF51BED57CA00F37E00 /* Headers */,
-				B3450B021BED57CA00F37E00 /* Classes */,
-				B3450B0F1BED57CA00F37E00 /* CVector2 */,
-				B3450B121BED57CA00F37E00 /* CVBOData */,
 				B389FD561B8F0C2E008FD16E /* Prefix.h */,
 				B389FD471B8F0BA6008FD16E /* main.cpp */,
 			);
 			path = PacmanClone;
+			sourceTree = "<group>";
+		};
+		B3C38C361BED64AD001CC47E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B3C38C371BED64AD001CC47E /* CBlinkyGhost.cpp */,
+				B3C38C381BED64AD001CC47E /* CFactory.cpp */,
+				B3C38C391BED64AD001CC47E /* CFindWay.cpp */,
+				B3C38C3A1BED64AD001CC47E /* CGameScene.cpp */,
+				B3C38C3B1BED64AD001CC47E /* CInkyGhost.cpp */,
+				B3C38C3C1BED64AD001CC47E /* CLevel.cpp */,
+				B3C38C3D1BED64AD001CC47E /* CPacman.cpp */,
+				B3C38C3E1BED64AD001CC47E /* CScene.cpp */,
+				B3C38C3F1BED64AD001CC47E /* CSprite.cpp */,
+				B3C38C401BED64AD001CC47E /* CStrategyFindWay.cpp */,
+				B3C38C411BED64AD001CC47E /* CTexture.cpp */,
+				B3C38C421BED64AD001CC47E /* CVBOData */,
+				B3C38C451BED64AD001CC47E /* CVector2 */,
+				B3C38C481BED64AD001CC47E /* CWaveAlgorithm.cpp */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B3C38C421BED64AD001CC47E /* CVBOData */ = {
+			isa = PBXGroup;
+			children = (
+				B3C38C431BED64AD001CC47E /* CVBOData.cpp */,
+				B3C38C441BED64AD001CC47E /* CVBOData.h */,
+			);
+			path = CVBOData;
+			sourceTree = "<group>";
+		};
+		B3C38C451BED64AD001CC47E /* CVector2 */ = {
+			isa = PBXGroup;
+			children = (
+				B3C38C461BED64AD001CC47E /* CVector2.cpp */,
+				B3C38C471BED64AD001CC47E /* CVector2.h */,
+			);
+			path = CVector2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,21 +275,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3450B1D1BED57CA00F37E00 /* CSprite.cpp in Sources */,
-				B3450B1E1BED57CA00F37E00 /* CStrategyFindWay.cpp in Sources */,
-				B3450B181BED57CA00F37E00 /* CGameScene.cpp in Sources */,
-				B3450B211BED57CA00F37E00 /* CVector2.cpp in Sources */,
-				B3450B1A1BED57CA00F37E00 /* CLevel.cpp in Sources */,
-				B3450B221BED57CA00F37E00 /* CVBOData.cpp in Sources */,
-				B3450B151BED57CA00F37E00 /* CBlinkyGhost.cpp in Sources */,
-				B3450B1F1BED57CA00F37E00 /* CTexture.cpp in Sources */,
-				B3450B191BED57CA00F37E00 /* CInkyGhost.cpp in Sources */,
-				B3450B1C1BED57CA00F37E00 /* CScene.cpp in Sources */,
+				B3C38C511BED64AD001CC47E /* CSprite.cpp in Sources */,
+				B3C38C521BED64AD001CC47E /* CStrategyFindWay.cpp in Sources */,
+				B3C38C4C1BED64AD001CC47E /* CGameScene.cpp in Sources */,
+				B3C38C551BED64AE001CC47E /* CVector2.cpp in Sources */,
+				B3C38C4E1BED64AD001CC47E /* CLevel.cpp in Sources */,
+				B3C38C561BED64AE001CC47E /* CWaveAlgorithm.cpp in Sources */,
+				B3C38C491BED64AD001CC47E /* CBlinkyGhost.cpp in Sources */,
+				B3C38C531BED64AE001CC47E /* CTexture.cpp in Sources */,
+				B3C38C4D1BED64AD001CC47E /* CInkyGhost.cpp in Sources */,
+				B3C38C541BED64AE001CC47E /* CVBOData.cpp in Sources */,
+				B3C38C501BED64AD001CC47E /* CScene.cpp in Sources */,
 				B389FD481B8F0BA6008FD16E /* main.cpp in Sources */,
-				B3450B201BED57CA00F37E00 /* CWaveAlgorithm.cpp in Sources */,
-				B3450B171BED57CA00F37E00 /* CFindWay.cpp in Sources */,
-				B3450B161BED57CA00F37E00 /* CFactory.cpp in Sources */,
-				B3450B1B1BED57CA00F37E00 /* CPacman.cpp in Sources */,
+				B3C38C4B1BED64AD001CC47E /* CFindWay.cpp in Sources */,
+				B3C38C4A1BED64AD001CC47E /* CFactory.cpp in Sources */,
+				B3C38C4F1BED64AD001CC47E /* CPacman.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
