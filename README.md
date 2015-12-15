@@ -1,2 +1,2 @@
 # Pacman
-Using OpenGL glfw3 C++
+OpenGL, glfw3, C++
